@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #323232;
+}
+
+#box {
+    width: 520px;
+    height: 162px;
+    top: 409px;
+    left: 496px;
+    border-radius: 8px;
+    box-shadow: 5px 4px 10px 0px #00000040;
+    background: #2A2A2A;
+    transition: 1s;
+    margin: 300px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#box:hover {
+    background-color: #3a3a3a;
+    transform: scale(1.2);
+
+}
+
+
+#mini-box {
+    width: 93px;
+    height: 99px;
+    top: 442px;
+    left: 552px;
+    border-radius: 10px;
+    transition: 1s;
+    background: #323232;
+    box-shadow: 2px 6px 6px 2px #00000073;
+}
+
+#mini-box:hover {
+    background-color: #3a3a3a;
+    transform: scale(1.2);
+}
+
+#df-time {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#df-time h2 {
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+#df-time h4 {
+    padding-top: 10px;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+#mini-box h1 {
+    font-size: 50px;
+
+}
+
+#box h2 {
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
